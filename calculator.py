@@ -16,4 +16,5 @@ class Calculator:
         # TODO:- Add your code in the below function
         # check for divide by zero error, using assert statements
         # implement the division operation
-        return
+        assert self.b != 0, Exception("[ERROR] Denominator can't be 0!")
+        return self.a / self.b
